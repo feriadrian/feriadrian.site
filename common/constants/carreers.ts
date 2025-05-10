@@ -1,0 +1,41 @@
+import { CareerProps } from "../types/careers";
+
+export const CAREERS: CareerProps[] = [
+  {
+    position: "Mobile Developer",
+    company: "PT. SulappaEppa Studio",
+    logo: "/images/careers/logo-sulappa.png",
+    location: "Makassar, Indonesia 🇮🇩",
+    location_type: "Onsite",
+    type: "Part-time",
+    start_date: "2024-06-01",
+    end_date: "null",
+    industry: "Software House",
+    link: "https://sulapaeppastudio.com",
+    // responsibilities: [
+    //   "Mastered Android development using Kotlin, Jetpack Components, and modern tools like Room Database and DataStore for state and data management.",
+    //   "Gained hands-on experience with ViewModel, RecyclerView, and Hilt for dependency injection to create robust and scalable mobile applications.",
+    //   "Collaborated with a cross-functional team to develop a Company-Based Capstone Project, applying Agile methodologies and real-world problem-solving.",
+    //   "Enhanced teamwork, problem-solving, and communication skills in a multicultural environment.",
+    // ],
+  },
+  {
+    position: "Mobile Developer",
+    company: "PT. Menara Indonesia",
+    logo: "/images/careers/kampus-gratis.jpg",
+    location: "Jakarta Selatan, Indonesia 🇮🇩",
+    location_type: "Onsite",
+    type: "Internship",
+    start_date: "2023-03-01",
+    end_date: "2023-07-07",
+    industry: "education",
+    link: "https://kampusgratis.id/",
+    // responsibilities: [
+    //   // "UI Slicing for Simulation and Assessment Features: Designed and implemented user interfaces for simulation and assessment features using Flutter, ensuring responsive and user-friendly layouts across devices.",
+    //   // "API Integration for Simulation and Assessment: Developed and integrated REST APIs to support the simulation and assessment features, ensuring seamless communication between the app and backend.",
+    //   // "App Performance Optimization: Enhanced app performance and user experience by leveraging Flutter and state management to reduce app response time.",
+    //   // "Collaboration with Backend Development Team: Worked closely with the backend team to ensure APIs met the app’s needs, providing a smooth and efficient user experience.",
+    //   // "Improvement of Technical and Communication Skills: Strengthened mobile development skills with Flutter, as well as communication and teamwork abilities in delivering successful projects.",
+    // ],
+  },
+];
