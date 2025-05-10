@@ -8,18 +8,6 @@ const nextConfig = {
       },
     ],
   },
-  // Tambahkan ini:
-  trailingSlash: true,
-  skipTrailingSlashRedirect: true,
-  experimental: {
-    missingSuspenseWithCSRBailout: false,
-  },
-  // Untuk debug:
-  logging: {
-    fetches: {
-      fullUrl: true,
-    },
-  }
 };
 
 export default nextConfig;
