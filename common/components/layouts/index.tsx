@@ -35,8 +35,8 @@ const Layouts = ({ children }: LayoutsProps) => {
           {children}
         </main>
       </div>
-      <Notif />
-      {isShowChatButton && <ChatButton />}
+      {/* <Notif /> */}
+      {/* {isShowChatButton && <ChatButton />} */}
     </div>
   );
 }
