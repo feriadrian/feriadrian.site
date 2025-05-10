@@ -4,10 +4,10 @@ export const METADATA = {
   keyword: "feri, feri adrian",
   authors: {
     name: "Feri Adrian",
-    url: process.env.DOMAIN,
+    url: process.env.DOMAIN || "https://feriadrian.vercel.app",  // Ganti dengan URL default
   },
   openGraph: {
-    url: process.env.DOMAIN,
+    url: process.env.DOMAIN || "https://feriadrian.vercel.app",  // Ganti dengan URL default
     siteName: "Feri Adrian",
     locale: "id-ID",
   },
