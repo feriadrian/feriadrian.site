@@ -1,14 +1,18 @@
+const domain = process.env.DOMAIN?.startsWith("http")
+  ? process.env.DOMAIN
+  : `https://${process.env.DOMAIN || "feriadrian.site.vercel.app"}`;
+
 export const METADATA = {
   creator: "Feri Adrian",
   description: "Personal website, portfolio, blog",
   keyword: "feri, feri adrian",
-  metadataBase: new URL(process.env.DOMAIN || 'https://feriadrian.site.vercel.app'),
+  metadataBase: new URL(domain),
   authors: {
     name: "Feri Adrian",
-    url: process.env.DOMAIN || "https://feriadrian.site.vercel.app",  // Ganti dengan URL default
+    url: domain,
   },
   openGraph: {
-    url: process.env.DOMAIN || "https://feriadrian.site.vercel.app",  // Ganti dengan URL default
+    url: domain,
     siteName: "Feri Adrian",
     locale: "id-ID",
   },
