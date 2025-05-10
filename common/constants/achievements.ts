@@ -8,7 +8,7 @@ export const staticAchievements = [
         image: "/images/achievements/certificates/Sertifikat 035_SER_B2G-MKP_XII_2022 - FERI ADRIAN.jpg",
         name: "Flutter",
         issuing_organization: "Alterra Academy",
-        url_credential: "No online verification available",
+        url_credential: process.env.DOMAIN || 'https://feriadrian.site.vercel.app',
         issue_date: "2022-12-28",
     },
     {
@@ -20,7 +20,7 @@ export const staticAchievements = [
         image: "/images/achievements/certificates/Achievements-intern.jpg",
         name: "Internship",
         issuing_organization: "PT. Menara Indonesia",
-        url_credential: "No online verification available",
+        url_credential: process.env.DOMAIN || 'https://feriadrian.site.vercel.app',
         issue_date: "2023-07-28",
     },
     {
@@ -32,7 +32,7 @@ export const staticAchievements = [
         image: "/images/achievements/certificates/Achievements-3dlayout.jpg",
         name: "3D Animation Layout",
         issuing_organization: "Balai Diklat Industri Bali",
-        url_credential: "No online verification available",
+        url_credential: process.env.DOMAIN || 'https://feriadrian.site.vercel.app',
         issue_date: "2022-04-28",
     },
     // dan seterusnya
