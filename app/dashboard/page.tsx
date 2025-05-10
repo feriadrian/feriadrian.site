@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { useTranslations } from "next-intl";
+// import { useTranslations } from "next-intl";
 
 import Container from "@/common/components/elements/Container";
 import PageHeading from "@/common/components/elements/PageHeading";
@@ -15,11 +15,11 @@ export const metadata: Metadata = {
 };
 
 const DashboardPage = () => {
-  const t = useTranslations("DashboardPage");
+  // const t = useTranslations("DashboardPage");
 
   return (
     <Container data-aos="fade-up">
-      <PageHeading title={t("title")} description={t("description")} />
+      <PageHeading title="title" description="description" />
       <Dashboard />
     </Container>
   );
