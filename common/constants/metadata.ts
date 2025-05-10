@@ -1,11 +1,7 @@
-const domain = process.env.DOMAIN?.startsWith("http")
-  ? process.env.DOMAIN
-  : `https://${process.env.DOMAIN || "feriadrian.site.vercel.app"}`;
+const domain = "https://feriadrian.site.vercel.app"; // sementara abaikan process.env
 
 export const METADATA = {
-  creator: "Feri Adrian",
-  description: "Personal website, portfolio, blog",
-  keyword: "feri, feri adrian",
+  // ...
   metadataBase: new URL(domain),
   authors: {
     name: "Feri Adrian",
@@ -16,6 +12,5 @@ export const METADATA = {
     siteName: "Feri Adrian",
     locale: "id-ID",
   },
-  exTitle: "| Feri Adrian",
-  profile: "/images/Feri-Adrian.jpeg.jpg",
+  // ...
 };
