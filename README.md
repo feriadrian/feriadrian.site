@@ -1,4 +1,4 @@
-  <h1>satriabahari.site</h1>
+  <!-- <h1>satriabahari.site</h1>
   <p>🔥 Personal website was built originally from scratch using Next.js, TypeScript, Tailwind CSS, SWR, and Prisma</p>
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/satriabahari/satria.com)](https://github.com/satriabahari/satria.com/stargazers)
@@ -158,4 +158,4 @@ bun run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/pages/index.tsx`.
-<br /><br />
+<br /><br /> -->
