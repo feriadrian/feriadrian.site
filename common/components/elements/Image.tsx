@@ -25,7 +25,7 @@ const Image = (props: ImageProps) => {
           "duration-700 ease-in-out",
           isLoading
             ? "scale-[1.02] blur-xl grayscale"
-            : "scale-100 blur-0 grayscale-0",
+            : "scale-125 blur-0 grayscale-0",
           rounded,
           className,
         )}

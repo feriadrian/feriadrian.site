@@ -23,9 +23,9 @@ const ProfileHeader = ({ expandMenu, imageSize }: ProfileHeaderProps) => {
     >
       {/* Bermasalah (bug) */}
       <Image
-        src={"/images/Feri-Adrian.jpeg"}
-        width={expandMenu ? 80 : imageSize}
-        height={expandMenu ? 80 : imageSize}
+        src={"/images/Feri-Adrian-2.jpeg"}
+        width={expandMenu ? 80 : imageSize + 20}
+        height={expandMenu ? 80 : imageSize + 20}
         alt="Feri Adrian"
         className="aspect-square object-cover border-2 border-neutral-400 dark:border-neutral-600 lg:hover:scale-105"
         rounded="rounded-full"
