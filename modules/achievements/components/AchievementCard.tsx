@@ -31,10 +31,10 @@ const AchievementCard = ({
             height={200}
             className="min-h-[180px] w-full object-cover md:h-[170px]"
           />
-          <div className="absolute left-0 top-0 flex h-full w-full items-center justify-center gap-1 rounded-t-lg bg-black text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-80 dark:text-neutral-50">
+          {/* <div className="absolute left-0 top-0 flex h-full w-full items-center justify-center gap-1 rounded-t-lg bg-black text-sm font-medium opacity-0 transition-opacity duration-300 group-hover:opacity-80 dark:text-neutral-50">
             <span>{("show_credential")}</span>
             <ViewIcon size={20} />
-          </div>
+          </div> */}
         </div>
         <div className="my-auto space-y-2 p-4">
           {credential_id && (
