@@ -15,7 +15,7 @@ const ProjectCard = ({
   is_featured,
 }: ProjectItem) => {
   const trimmedContent =
-    description.slice(0, 80) + (description.length > 80 ? "..." : "");
+    description
 
   return (
     <Card className="group relative cursor-default flex flex-col h-full">
