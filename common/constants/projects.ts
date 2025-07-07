@@ -81,7 +81,7 @@ export const staticProjects: ProjectItem[] = [
         // content: "", // kalau kamu pakai MDX, isi di sini atau pakai import.
     },
     {
-        id: 6,
+        id: 7,
         title: "MYB Pemilu",
         slug: "MYB-Pemilu",
         description: "Flutter-based vote recording app for legislative candidate.",
