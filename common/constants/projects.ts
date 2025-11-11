@@ -2,21 +2,22 @@
 import { ProjectItem } from "@/common/types/projects";
 
 export const staticProjects: ProjectItem[] = [
+
     {
-        id: 1,
-        title: "MyInvoice",
-        slug: "myinvoice",
-        description: "An app that helps users track and pay invoices submitted by stores directly through the app.",
-        image: "/images/projects/myinvoice.png",
+        id: 8,
+        title: "Desa Satu Data",
+        slug: "desa-satu-data",
+        description: "A system for managing village data and services, connecting local communities with government services.",
+        image: "/images/projects/dsd.png",
         stacks: ["flutter"],
         is_featured: false,
         is_show: true,
-        // link_demo: "https://sulappa.app",
+        link_demo: "https://play.google.com/store/apps/details?id=com.sun.desa_satu_data_prod&hl=id",
         // link_github: "https://github.com/feri/sulappa",
         // content: "", // kalau kamu pakai MDX, isi di sini atau pakai import.
     },
     {
-        id: 2,
+        id: 7,
         title: "Kampus Gratis",
         slug: "kampus-gratis",
         description: "A training app designed to help students access and complete learning programs efficiently.",
@@ -24,12 +25,12 @@ export const staticProjects: ProjectItem[] = [
         stacks: ["flutter"],
         is_featured: false,
         is_show: true,
-        // link_demo: "https://sulappa.app",
+        link_demo: "https://play.google.com/store/apps/details?id=id.kampusgratis.app&hl=id",
         // link_github: "https://github.com/feri/sulappa",
         // content: "", // kalau kamu pakai MDX, isi di sini atau pakai import.
     },
     {
-        id: 3,
+        id: 6,
         title: "PPDB Sulawesi Tenggara",
         slug: "ppdb-sulawesi-tenggara",
         description: "An app for managing student admissions (PPDB) across Southeast Sulawesi.",
@@ -42,11 +43,11 @@ export const staticProjects: ProjectItem[] = [
         // content: "", // kalau kamu pakai MDX, isi di sini atau pakai import.
     },
     {
-        id: 4,
-        title: "SIPOD",
-        slug: "sipod",
-        description: "A system for managing village data and services, connecting local communities with government services.",
-        image: "/images/projects/sipod.png",
+        id: 5,
+        title: "MyInvoice",
+        slug: "myinvoice",
+        description: "An app that helps users track and pay invoices submitted by stores directly through the app.",
+        image: "/images/projects/myinvoice.png",
         stacks: ["flutter"],
         is_featured: false,
         is_show: true,
@@ -55,7 +56,22 @@ export const staticProjects: ProjectItem[] = [
         // content: "", // kalau kamu pakai MDX, isi di sini atau pakai import.
     },
     {
-        id: 5,
+        id: 4,
+        title: "Budidaya Laut",
+        slug: "budidaya-laut",
+        description: "an application that helps seaweed farmers monitor, manage, and develop cultivation activities digitally.",
+        image: "/images/projects/budidaya-laut.png",
+        stacks: ["flutter"],
+        is_featured: false,
+        is_show: true,
+        link_demo: "https://play.google.com/store/apps/details?id=com.cleoun.budidaya_laut&hl=id",
+        // link_github: "https://github.com/feri/sulappa",
+        // content: "", // kalau kamu pakai MDX, isi di sini atau pakai import.
+    },
+
+
+    {
+        id: 3,
         title: "Absensi Mempawah",
         slug: "absensi-mempawah",
         description: "An app for tracking employee attendance in a government agency.",
@@ -68,7 +84,7 @@ export const staticProjects: ProjectItem[] = [
         // content: "", // kalau kamu pakai MDX, isi di sini atau pakai import.
     },
     {
-        id: 6,
+        id: 2,
         title: "SmartBafes",
         slug: "smart-bafest",
         description: "Developed a scalable livestock management app with multi-role access, secure authentication, optimized data handling, and responsive UI/UX.",
@@ -81,7 +97,7 @@ export const staticProjects: ProjectItem[] = [
         // content: "", // kalau kamu pakai MDX, isi di sini atau pakai import.
     },
     {
-        id: 7,
+        id: 1,
         title: "MYB Pemilu",
         slug: "MYB-Pemilu",
         description: "Flutter-based vote recording app for legislative candidate.",

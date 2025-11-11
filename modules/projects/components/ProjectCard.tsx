@@ -13,12 +13,22 @@ const ProjectCard = ({
   image,
   stacks,
   is_featured,
+  link_demo,
 }: ProjectItem) => {
-  const trimmedContent =
-    description
+  const trimmedContent = description;
+
+  const handleClick = () => {
+    if (link_demo) {
+      window.open(link_demo, "_blank"); // buka tab baru
+    }
+  };
 
   return (
-    <Card className="group relative cursor-default flex flex-col h-full">
+    <Card
+      className={`group relative flex flex-col h-full transition-all duration-300 ${link_demo ? "cursor-pointer hover:shadow-lg" : "cursor-default"
+        }`}
+      onClick={handleClick}
+    >
       {is_featured && (
         <div className="absolute right-0 top-0 z-10 flex items-center gap-x-1 rounded-bl-lg rounded-tr-lg bg-cyan-500 px-2 py-1 text-sm font-medium text-neutral-900">
           <PinIcon size={15} />
@@ -34,10 +44,12 @@ const ProjectCard = ({
           className="aspect-[3/2] w-full rounded-t-xl object-cover"
           priority
         />
-        <div className="absolute left-0 top-0 flex h-full w-full items-center justify-center gap-1 rounded-t-xl bg-black text-sm font-medium text-neutral-50 opacity-0 transition-opacity duration-300 group-hover:opacity-80">
-          {/* <span>view_project</span> */}
-          {/* <ViewIcon size={20} /> */}
-        </div>
+        {link_demo && (
+          <div className="absolute left-0 top-0 flex h-full w-full items-center justify-center gap-1 rounded-t-xl bg-black text-sm font-medium text-neutral-50 opacity-0 transition-opacity duration-300 group-hover:opacity-80">
+            <span>View Project</span>
+            <ViewIcon size={20} />
+          </div>
+        )}
       </div>
       <div className="flex flex-col justify-between space-y-2 p-5 min-h-[180px]">
         <div>
