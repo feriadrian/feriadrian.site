@@ -1,6 +1,6 @@
 export const staticAchievements = [
     {
-        id: 1,
+        id: 5,
         title: "How to Become a Flutter Developer: From Zero to Hero",
         description: "A comprehensive course on Flutter development.",
         category: "Academic",
@@ -12,7 +12,7 @@ export const staticAchievements = [
         issue_date: "2022-12-28",
     },
     {
-        id: 2,
+        id: 4,
         title: "Apps Developer With Flutter",
         description: "Completed an internship focused on Flutter app development.",
         category: "Academic",
@@ -36,7 +36,7 @@ export const staticAchievements = [
         issue_date: "2022-04-28",
     },
     {
-        id: 4,
+        id: 2,
         title: "Excel Untuk Bantu Kariermu",
         description: "Completed an internship focused on Flutter app development.",
         category: "Academic",
@@ -48,7 +48,7 @@ export const staticAchievements = [
         issue_date: "2025-06-12",
     },
     {
-        id: 5,
+        id: 1,
         title: "Pelatihan Excel untuk Admin ",
         description: "Completed an internship focused on Flutter app development.",
         category: "Academic",
